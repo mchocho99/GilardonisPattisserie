@@ -1,0 +1,17 @@
+#bottom-navigator-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #feddf2;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+
+  a {
+    background-color: red;
+    width: 100px;
+    text-align: center;
+  }
+}

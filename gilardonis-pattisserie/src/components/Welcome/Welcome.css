@@ -1,0 +1,21 @@
+#welcome {
+  height: 200px;
+  background-image: url("../../assets//products/Macarons.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .container {
+    .text {
+      background-color: #fedcf3;
+      padding: 10px;
+      color: #d03397;
+      font-weight: 500;
+      font-size: 30px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+}

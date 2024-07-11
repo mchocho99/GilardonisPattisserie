@@ -1,0 +1,18 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  min-height: inherit;
+}
+
+#root {
+  min-height: calc(100vh - 60px); /* The space of the BottomNavigationBar */
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}

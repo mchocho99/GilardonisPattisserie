@@ -1,0 +1,17 @@
+#cart-icon {
+  position: fixed;
+  z-index: 2000;
+  bottom: calc(20px + 60px); /* Height of the BottomNavigationBar */
+  right: 20px;
+  height: 80px;
+  width: 80px;
+  background-color: #fedcf3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    height: 50px;
+  }
+}
