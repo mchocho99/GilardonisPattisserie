@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Macarons",
+    "description": "6 Macarons medianos",
+    "prize": 250.0,
+    "image": "../assets/products/Macarons.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Macarons",
+    "description": "6 Macarons medianos",
+    "prize": 250.0,
+    "image": "../assets/products/Macarons.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Macarons",
+    "description": "6 Macarons medianos",
+    "prize": 250.0,
+    "image": "../assets/products/Macarons.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Macarons",
+    "description": "6 Macarons medianos",
+    "prize": 250.0,
+    "image": "../assets/products/Macarons.jpg"
+  }
+]

@@ -6,9 +6,9 @@ const Welcome = () => {
   return (
     <div id="welcome">
       <div className="container">
-        <div className="text">
+        <h1 className="text">
           <span>¡Bienvenida a la web!</span>
-        </div>
+        </h1>
         <Button onClick={() => {}} text="Comenzar a comprar" />
       </div>
     </div>
