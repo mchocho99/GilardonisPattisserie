@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import Item from "../Item";
+import Item from "../Item/Item";
 
 import "./List.css";
 
@@ -13,7 +13,6 @@ const List = ({ elements, title = null }) => {
           <Item key={element.id} {...element} />
         ))}
       </div>
-      <Item />
     </div>
   );
 };

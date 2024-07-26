@@ -12,7 +12,7 @@ const options = [
   },
   {
     image: ProductsIcon,
-    text: "Productos",
+    text: "Delicias",
   },
   {
     image: MailIconMid,

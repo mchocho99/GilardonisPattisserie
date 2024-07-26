@@ -10,9 +10,9 @@ const Home = () => {
     <main id="home">
       <Welcome />
       {trendingProducts && (
-        <List elements={trendingProducts} title="Productos en tendencia" />
+        <List elements={trendingProducts} title="Delicias en tendencia" />
       )}
-      {newProducts && <List elements={newProducts} title="Nuevos productos" />}
+      {newProducts && <List elements={newProducts} title="Nuevas delicias" />}
       <div id="see-more">
         <Button onClick={() => {}} text="Ver más" />
       </div>

@@ -1,5 +1,12 @@
 #home {
+  min-height: calc(100vh - 80px - 60px);
+  display: flex;
+  flex-direction: column;
+
   #see-more {
-    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

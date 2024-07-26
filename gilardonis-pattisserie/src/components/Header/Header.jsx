@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header id="header">
-      <img src={LogoTiny} />
+      <img id="logo" src={LogoTiny} />
     </header>
   );
 };

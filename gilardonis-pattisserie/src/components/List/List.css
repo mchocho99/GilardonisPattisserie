@@ -1,7 +1,13 @@
 .list {
+  padding: 20px;
+
   .title {
     color: #d33998;
-    margin: 0;
-    padding: 20px 10px;
+    margin: 0 0 10px 0;
+  }
+
+  .carroussel {
+    display: flex;
+    gap: 10px;
   }
 }

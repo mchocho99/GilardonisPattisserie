@@ -1,0 +1,17 @@
+.item {
+  box-shadow: 0px 3px 20px 0px #c9c9c9;
+  border-radius: 5px;
+
+  img {
+    width: 160px;
+    display: block;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .bottom {
+    background-color: #ffff;
+    padding: 5px;
+    color: #d03397;
+    border-radius: 0 0 5px 5px;
+  }
+}

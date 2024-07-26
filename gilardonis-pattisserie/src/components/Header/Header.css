@@ -1,5 +1,9 @@
 #header {
   text-align: center;
   background-color: #feddf2;
-  height: 100px;
+  height: 80px;
+
+  #logo {
+    height: inherit;
+  }
 }

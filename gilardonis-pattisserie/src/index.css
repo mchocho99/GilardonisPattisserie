@@ -1,12 +1,12 @@
 html {
   min-height: 100vh;
+  font-family: "Roboto", "Open Sans", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", "Open Sans", sans-serif;
   min-height: inherit;
 }
 
@@ -15,4 +15,8 @@ body {
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
+}
+
+input {
+  font-family: "Roboto", "Open Sans", sans-serif;
 }
