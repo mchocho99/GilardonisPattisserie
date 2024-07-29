@@ -1,17 +1,29 @@
 #bottom-navigator-bar {
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
   width: 100%;
-  background-color: #feddf2;
   height: 60px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
+
+  .inner-flex {
+    width: calc(100% - 20px);
+    background-color: #feddf2;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: inherit;
+    border-radius: 40px;
+  }
 
   a {
     background-color: red;
     width: 100px;
     text-align: center;
+  }
+
+  .icon {
+    flex-grow: 1;
   }
 }

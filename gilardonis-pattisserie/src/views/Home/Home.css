@@ -1,12 +1,13 @@
 #home {
-  min-height: calc(100vh - 80px - 60px);
   display: flex;
   flex-direction: column;
+  gap: 20px;
 
   #see-more {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
   }
 }

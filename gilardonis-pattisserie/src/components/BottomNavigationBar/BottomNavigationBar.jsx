@@ -27,9 +27,11 @@ const options = [
 const BottomNavigationBar = () => {
   return (
     <nav id="bottom-navigator-bar">
-      {options.map((option) => (
-        <Icon key={option.text} image={option.image} text={option.text} />
-      ))}
+      <div className="inner-flex">
+        {options.map((option) => (
+          <Icon key={option.text} image={option.image} text={option.text} />
+        ))}
+      </div>
     </nav>
   );
 };
