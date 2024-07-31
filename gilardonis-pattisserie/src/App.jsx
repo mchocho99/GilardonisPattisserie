@@ -4,6 +4,7 @@ import { Home } from "./views";
 function App() {
   return (
     <>
+      <div className="top-notch-background" />
       <Header />
       <Home />
       <BottomNavigationBar />

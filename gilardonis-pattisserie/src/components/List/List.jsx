@@ -4,9 +4,9 @@ import Item from "../Item/Item";
 
 import "./List.css";
 
-const List = ({ elements, title = null }) => {
+const List = ({ elements, title = null, className = null }) => {
   return (
-    <div className="list">
+    <div className={className ? `${className} list` : "list"}>
       <h2 className="title">{title}</h2>
       <div className="carroussel">
         {elements.map((element) => (
@@ -20,6 +20,7 @@ const List = ({ elements, title = null }) => {
 List.propTypes = {
   elements: PropTypes.array.isRequired,
   title: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default List;

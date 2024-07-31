@@ -21,3 +21,17 @@ body {
 input {
   font-family: "Roboto", "Open Sans", sans-serif;
 }
+
+.mt10px {
+  margin-top: 10px;
+}
+
+.top-notch-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: env(safe-area-inset-top);
+  background-color: #ff6347; /* Color de fondo deseado */
+  z-index: 1000; /* Asegura que esté encima de otros elementos */
+}

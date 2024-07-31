@@ -1,13 +1,15 @@
 .list {
-  padding-inline: 20px;
-
   .title {
     color: #d33998;
     margin: 0 0 10px 0;
+    padding-inline: 20px;
   }
 
   .carroussel {
     display: flex;
     gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    padding-inline: 20px;
   }
 }
