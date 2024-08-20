@@ -1,21 +1,21 @@
 html {
-  min-height: 100vh;
-  font-family: "Roboto", "Open Sans", sans-serif;
   box-sizing: border-box;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  min-height: 100vh;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  margin: 0;
   min-height: inherit;
+  padding: 0;
 }
 
 #root {
-  min-height: calc(100vh - 60px); /* The space of the BottomNavigationBar */
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
+  min-height: calc(100vh - 60px); /* The space of the BottomNavigationBar */
+  padding-bottom: 60px;
 }
 
 input {
@@ -24,14 +24,4 @@ input {
 
 .mt10px {
   margin-top: 10px;
-}
-
-.top-notch-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: env(safe-area-inset-top);
-  background-color: #ff6347; /* Color de fondo deseado */
-  z-index: 1000; /* Asegura que esté encima de otros elementos */
 }

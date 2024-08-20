@@ -4,7 +4,7 @@ import Item from "../Item/Item";
 
 import "./List.css";
 
-const List = ({ elements, title = null, className = null }) => {
+const List = ({ className = null, elements, title = null }) => {
   return (
     <div className={className ? `${className} list` : "list"}>
       <h2 className="title">{title}</h2>
@@ -18,9 +18,9 @@ const List = ({ elements, title = null, className = null }) => {
 };
 
 List.propTypes = {
+  className: PropTypes.string,
   elements: PropTypes.array.isRequired,
   title: PropTypes.string,
-  className: PropTypes.string,
 };
 
 export default List;

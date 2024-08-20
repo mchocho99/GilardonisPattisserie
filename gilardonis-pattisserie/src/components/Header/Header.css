@@ -1,7 +1,9 @@
+@import "../../variables.css";
+
 #header {
-  text-align: center;
-  background-color: #feddf2;
+  background-color: var(--primary-color);
   height: 80px;
+  text-align: center;
 
   #logo {
     height: inherit;

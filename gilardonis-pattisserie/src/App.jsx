@@ -1,11 +1,11 @@
-import { BottomNavigationBar, Header } from "./components";
 import { Home } from "./views";
+import { BottomNavigationBar, Header } from "./components";
+import { LogoBig } from "./assets";
 
 function App() {
   return (
     <>
-      <div className="top-notch-background" />
-      <Header />
+      <Header image={LogoBig} />
       <Home />
       <BottomNavigationBar />
     </>

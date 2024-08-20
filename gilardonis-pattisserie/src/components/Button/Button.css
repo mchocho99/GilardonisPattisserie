@@ -1,9 +1,11 @@
+@import "../../variables.css";
+
 .button {
-  background-color: #d03397;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
   color: white;
   font-size: 16px;
-  padding: 16px;
-  border: none;
   min-width: 200px;
-  border-radius: 5px;
+  padding: 16px;
 }

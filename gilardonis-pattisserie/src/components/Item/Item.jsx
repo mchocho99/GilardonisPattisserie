@@ -1,16 +1,18 @@
 import PropTypes from "prop-types";
 
+import MoreIcon from "../../assets/moreIcon.png";
+
 import "./Item.css";
 
 const Item = ({ image, name, prize }) => {
   return (
     <div className="item">
-      <img src={image} alt={name} />
+      <img className="more" src={MoreIcon} />
+      <img className="product" src={image} alt={name} />
       <div className="bottom">
         <span>
           {name} ${prize}
         </span>
-        {/*<img src={cartIconMin} alt="Icono de carrito" />*/}
       </div>
     </div>
   );

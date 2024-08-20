@@ -4,10 +4,10 @@
   gap: 20px;
 
   #see-more {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
     margin-bottom: 30px;
   }
 }

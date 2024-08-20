@@ -1,12 +1,15 @@
-import { LogoTiny } from "../../assets";
+import PropTypes from "prop-types";
+
 import "./Header.css";
 
-const Header = () => {
-  return (
-    <header id="header">
-      <img id="logo" src={LogoTiny} />
-    </header>
-  );
+const Header = ({ image }) => (
+  <header id="header">
+    <img id="logo" src={image} />
+  </header>
+);
+
+Header.propTypes = {
+  image: PropTypes.string.isRequired,
 };
 
 export default Header;

@@ -1,0 +1,42 @@
+@import "../../variables.css";
+
+.article {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 20px;
+  position: relative;
+  text-align: center;
+
+  img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .container {
+    .title {
+      background-color: var(--primary-color);
+      border-radius: 5px;
+      color: var(--secondary-color);
+      font-size: 20px;
+      font-weight: 500;
+      margin: 0 0 20px 0;
+      padding: 10px;
+    }
+
+    .body {
+      background-color: var(--primary-color);
+      border-radius: 5px;
+      color: var(--secondary-color);
+      font-size: 16px;
+      margin: 0 0 20px 0;
+      padding: 10px;
+    }
+  }
+}

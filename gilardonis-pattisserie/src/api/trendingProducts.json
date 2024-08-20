@@ -7,21 +7,21 @@
     "image": "../src/assets/products/Macarons.jpeg"
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Macarons",
     "description": "6 Macarons medianos",
     "prize": 250.0,
     "image": "../src/assets/products/Macarons.jpeg"
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Macarons",
     "description": "6 Macarons medianos",
     "prize": 250.0,
     "image": "../src/assets/products/Macarons.jpeg"
   },
   {
-    "id": 1,
+    "id": 4,
     "name": "Macarons",
     "description": "6 Macarons medianos",
     "prize": 250.0,

@@ -1,17 +1,24 @@
 .item {
-  box-shadow: 0px 3px 8px 0px #c9c9c9;
   border-radius: 5px;
+  box-shadow: 0px 3px 8px 0px #c9c9c9;
+  position: relative;
 
-  img {
-    width: 160px;
-    display: block;
+  .more {
+    position: absolute;
+    right: 0px;
+    width: 42px;
+  }
+
+  .product {
     border-radius: 5px 5px 0 0;
+    display: block;
+    width: 160px;
   }
 
   .bottom {
     background-color: #ffff;
-    padding: 5px;
-    color: #d03397;
     border-radius: 0 0 5px 5px;
+    color: #d03397;
+    padding: 5px;
   }
 }

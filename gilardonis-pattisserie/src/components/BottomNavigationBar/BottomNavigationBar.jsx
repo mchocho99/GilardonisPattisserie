@@ -1,26 +1,26 @@
 import Icon from "../Icon/Icon";
 
-import ProductsIcon from "../../assets/cakeIconMid.png";
-import { HomeIconMid, InstagramIconMid, MailIconMid } from "../../assets";
+import {
+  CakeIconMid,
+  HomeIconMid,
+  InstagramIconMid,
+  MailIconMid,
+} from "../../assets";
 
 import "./BottomNavigationBar.css";
 
 const options = [
   {
     image: HomeIconMid,
-    text: "Inicio",
   },
   {
-    image: ProductsIcon,
-    text: "Delicias",
+    image: CakeIconMid,
   },
   {
     image: MailIconMid,
-    text: "Mail",
   },
   {
     image: InstagramIconMid,
-    text: "Instagram",
   },
 ];
 
@@ -29,7 +29,7 @@ const BottomNavigationBar = () => {
     <nav id="bottom-navigator-bar">
       <div className="inner-flex">
         {options.map((option) => (
-          <Icon key={option.text} image={option.image} text={option.text} />
+          <Icon key={option.text} image={option.image} />
         ))}
       </div>
     </nav>
