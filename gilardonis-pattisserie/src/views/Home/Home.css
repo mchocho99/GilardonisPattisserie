@@ -1,13 +1,14 @@
+@import "../../variables.css";
+
 #home {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--home-gap);
 
   #see-more {
     align-items: center;
     display: flex;
     flex-grow: 1;
     justify-content: center;
-    margin-bottom: 30px;
   }
 }

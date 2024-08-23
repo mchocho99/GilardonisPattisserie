@@ -2,7 +2,7 @@
 
 #header {
   background-color: var(--primary-color);
-  height: 80px;
+  height: var(--header-height);
   text-align: center;
 
   #logo {

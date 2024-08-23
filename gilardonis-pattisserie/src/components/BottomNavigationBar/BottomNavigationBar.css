@@ -1,7 +1,9 @@
+@import "../../variables.css";
+
 #bottom-navigator-bar {
-  bottom: 10px;
+  bottom: var(--bottom-navigation-bar-bottom);
   display: flex;
-  height: 60px;
+  height: var(--bottom-navigation-bar-height);
   justify-content: center;
   position: fixed;
   width: 100%;
@@ -9,18 +11,12 @@
 
   .inner-flex {
     align-items: center;
-    background-color: #feddf2;
+    background-color: var(--primary-color);
     border-radius: 40px;
     display: flex;
     flex-direction: row;
     height: inherit;
-    width: calc(100% - 20px);
-  }
-
-  a {
-    background-color: red;
-    text-align: center;
-    width: 100px;
+    width: calc(100% - 1.25rem);
   }
 
   .icon {

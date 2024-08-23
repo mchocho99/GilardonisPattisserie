@@ -1,6 +1,8 @@
+@import "./variables.css";
+
 html {
   box-sizing: border-box;
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: var(--font);
   min-height: 100vh;
 }
 
@@ -14,14 +16,12 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 60px); /* The space of the BottomNavigationBar */
-  padding-bottom: 60px;
+  padding-bottom: calc(
+    var(--home-gap) + var(--bottom-navigation-bar-height) +
+      var(--bottom-navigation-bar-bottom)
+  );
 }
 
 input {
-  font-family: "Roboto", "Open Sans", sans-serif;
-}
-
-.mt10px {
-  margin-top: 10px;
+  font-family: var(--font);
 }

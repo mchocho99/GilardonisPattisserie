@@ -18,11 +18,7 @@ const Home = () => (
       title={texts.welcome.title}
     />
     {trendingProducts && (
-      <List
-        elements={trendingProducts}
-        title={texts.products.trending}
-        className="mt10px"
-      />
+      <List elements={trendingProducts} title={texts.products.trending} />
     )}
     {newProducts && <List elements={newProducts} title={texts.products.news} />}
     <div id="see-more">

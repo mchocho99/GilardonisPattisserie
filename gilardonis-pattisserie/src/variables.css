@@ -1,4 +1,17 @@
 :root {
+  /* colors */
   --primary-color: #feddf2;
   --secondary-color: #d03397;
+  --white: #ffffff;
+  --item-box-shadow: #c9c9c9;
+
+  /* sizes */
+  --header-height: 10vh;
+  --home-gap: 1rem;
+  --bottom-navigation-bar-height: 3.75rem;
+  --bottom-navigation-bar-icons-height: 1.875rem;
+  --bottom-navigation-bar-bottom: 0.625rem;
+
+  /* fonts */
+  --font: "Roboto", "Open Sans", sans-serif;
 }
