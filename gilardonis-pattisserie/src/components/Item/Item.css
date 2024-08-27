@@ -11,6 +11,12 @@
     width: 2.625rem;
   }
 
+  .more-products {
+    border-radius: 5px;
+    display: block;
+    width: 10rem;
+  }
+
   .product {
     border-radius: 5px 5px 0 0;
     display: block;
