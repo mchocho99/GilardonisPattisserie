@@ -1,13 +1,23 @@
 import { Home } from "./views";
-import { BottomNavigationBar, Header } from "./components";
+import { BottomNavigationBar, Desktop, Header } from "./components";
+import { useDeviceType } from "./hooks/useDeviceType";
 import { LogoBig } from "./assets";
+import { DEVICES } from "./utils/consts";
 
 function App() {
+  const device = useDeviceType();
+
   return (
     <>
-      <Header image={LogoBig} />
-      <Home />
-      <BottomNavigationBar />
+      {device === DEVICES.DESKTOP ? (
+        <Desktop />
+      ) : (
+        <>
+          <Header image={LogoBig} />
+          <Home />
+          <BottomNavigationBar />
+        </>
+      )}
     </>
   );
 }

@@ -30,7 +30,7 @@ const Item = ({ image, name, prize, type }) => {
 };
 
 Item.propTypes = {
-  image: PropTypes.string.isRequired,
+  image: PropTypes.string,
   name: PropTypes.string,
   prize: PropTypes.number,
   type: PropTypes.string,
