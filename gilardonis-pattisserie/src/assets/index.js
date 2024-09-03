@@ -6,6 +6,8 @@ import InstagramIconMid from "./instagramIconMid.png";
 import LogoBig from "./logoBig.jpeg";
 import LogoTiny from "./logoTiny.jpeg";
 import MailIconMid from "./mailIconMid.png";
+import MoreIcon from "./moreIcon.png";
+import MoreProducts from "./moreProducts.png";
 
 export {
   CakeIcon,
@@ -16,4 +18,6 @@ export {
   LogoBig,
   LogoTiny,
   MailIconMid,
+  MoreIcon,
+  MoreProducts,
 };

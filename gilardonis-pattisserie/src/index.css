@@ -13,15 +13,6 @@ body {
   padding: 0;
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: calc(
-    var(--home-gap) + var(--bottom-navigation-bar-height) +
-      var(--bottom-navigation-bar-bottom)
-  );
-}
-
 input {
   font-family: var(--font);
 }

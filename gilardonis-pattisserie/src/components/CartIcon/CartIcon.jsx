@@ -1,4 +1,4 @@
-import Icon from "../Icon/Icon";
+import { Icon } from "../../components";
 
 import { CartIconMid } from "../../assets";
 

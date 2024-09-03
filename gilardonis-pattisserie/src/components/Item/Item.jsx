@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
-import MoreIcon from "../../assets/moreIcon.png";
-import MoreProduct from "../../assets/moreProducts.png";
+import { MoreIcon, MoreProducts } from "../../assets";
 
 import { ITEM_TYPE } from "./types";
 
@@ -12,7 +11,11 @@ const Item = ({ image, name, prize, type }) => {
     <>
       {type === ITEM_TYPE.MORE ? (
         <div className="item">
-          <img className="more-products" src={MoreProduct} alt="More Product" />
+          <img
+            className="more-products"
+            src={MoreProducts}
+            alt="More Product"
+          />
         </div>
       ) : (
         <div className="item">

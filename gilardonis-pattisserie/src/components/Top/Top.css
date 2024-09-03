@@ -1,0 +1,18 @@
+@import "../../variables.css";
+
+#top {
+  background-color: var(--white);
+  color: var(--secondary-color);
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 3rem;
+
+  #principal {
+    font-size: 5rem;
+  }
+
+  #secondary {
+    flex: 1;
+    font-size: 2rem;
+  }
+}

@@ -1,12 +1,17 @@
 {
-  "welcome": {
-    "title": "¡Bienvenidos a Gilardoni's Pâtisserie!",
-    "body": "En Gilardoni's Pâtisserie, cada día es una oportunidad para endulzar la vida con nuestras creaciones, ya que nuestra pastelería es un lugar donde la dedicación y el cariño se mezclan en cada receta. Nos encanta ser parte de tus celebraciones y momentos dulces, y estamos comprometidos a ofrecerte siempre lo mejor.",
-    "button": "¡Explora nuestras delicias!"
+  "desktop": {
+    "principal": "¡Ups!😅",
+    "secondary_1": "Nuestras delicias aún no han llegado al escritorio.",
+    "secondary_2": "Pero no te preocupes, ¡puedes verlas desde tu móvil escaneando el código qr!"
   },
   "products": {
-    "trending": "Delicias en tendencia",
-    "news": "Nuevas delicias"
+    "news": "Nuevas delicias",
+    "trending": "Delicias en tendencia"
   },
-  "seeMore": "Ver más"
+  "seeMore": "Ver más",
+  "welcome": {
+    "body": "En Gilardoni's Pâtisserie, cada día es una oportunidad para endulzar la vida con nuestras creaciones, ya que nuestra pastelería es un lugar donde la dedicación y el cariño se mezclan en cada receta. Nos encanta ser parte de tus celebraciones y momentos dulces, y estamos comprometidos a ofrecerte siempre lo mejor.",
+    "button": "¡Explora nuestras delicias!",
+    "title": "¡Bienvenidos a Gilardoni's Pâtisserie!"
+  }
 }

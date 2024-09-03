@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
+
 import { DEVICES } from "../utils/consts";
 
 export const useDeviceType = () => {
   const [device, setDevice] = useState(DEVICES.DESKTOP);
 
   useEffect(() => {
-    const width = window.innerWidth;
     const height = window.innerHeight;
     const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    const width = window.innerWidth;
 
     if (width <= 768 && isTouch) {
       setDevice(DEVICES.MOBILE);
