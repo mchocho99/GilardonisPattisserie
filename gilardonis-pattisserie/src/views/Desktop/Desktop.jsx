@@ -1,5 +1,7 @@
 import { Slider, Text, Top } from "../../components/index";
 
+import Merenguitos from "../../assets/products/Merenguitos.jpeg";
+
 import "./Desktop.css";
 
 const Desktop = () => {
@@ -11,7 +13,9 @@ const Desktop = () => {
           <Slider />
           <Text />
         </div>
-        <img src="" alt="" />
+        <div id="image-container">
+          <img id="mobile-image" src={Merenguitos} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -2,13 +2,15 @@
 
 #top {
   background-color: var(--white);
+  border-radius: 0 0 120px 120px;
   color: var(--secondary-color);
   display: flex;
   gap: 1rem;
-  padding: 2rem 3rem;
+  padding: 2rem 5rem;
 
   #principal {
     font-size: 5rem;
+    font-weight: bold;
   }
 
   #secondary {

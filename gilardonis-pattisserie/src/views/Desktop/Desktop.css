@@ -3,4 +3,19 @@
 #desktop {
   background-color: var(--primary-color);
   height: 100vh;
+  padding-inline: 10rem;
+
+  #body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    #image-container {
+      #mobile-image {
+        display: block;
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
 }
