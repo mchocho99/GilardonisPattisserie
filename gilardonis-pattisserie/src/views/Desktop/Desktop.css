@@ -2,20 +2,22 @@
 
 #desktop {
   background-color: var(--primary-color);
-  height: 100vh;
-  padding-inline: 10rem;
+  height: calc(100vh - 10rem);
+  padding: 0 10rem 10rem 10rem;
 
   #body {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    height: calc(100% - 14rem);
+    margin-top: 4rem;
 
-    #image-container {
-      #mobile-image {
-        display: block;
-        height: auto;
-        width: 100%;
-        object-fit: cover;
-      }
+    #mobile-image {
+      aspect-ratio: 16 / 9;
+      display: block;
+      height: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      width: 100%;
     }
   }
 }
