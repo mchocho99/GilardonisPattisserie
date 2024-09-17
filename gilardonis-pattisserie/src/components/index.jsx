@@ -7,7 +7,6 @@ import Icon from "./Icon/Icon";
 import Item from "./Item/Item";
 import List from "./List/List";
 import Slider from "./Slider/Slider";
-import Text from "./Text/Text";
 import Top from "./Top/Top";
 
 export {
@@ -20,6 +19,5 @@ export {
   Item,
   List,
   Slider,
-  Text,
   Top,
 };

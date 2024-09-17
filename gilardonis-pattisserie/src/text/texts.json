@@ -2,7 +2,10 @@
   "desktop": {
     "principal": "¡Ups!😅",
     "secondary_1": "Nuestras delicias aún no han llegado al escritorio.",
-    "secondary_2": "Pero no te preocupes, ¡puedes verlas desde tu móvil escaneando el código qr!"
+    "secondary_2": "Pero no te preocupes, ¡puedes verlas desde tu móvil escaneando el código qr!",
+    "slider": {
+      "text": "Puedes ver más delicias como estas siguiéndonos en Instagram"
+    }
   },
   "products": {
     "news": "Nuevas delicias",

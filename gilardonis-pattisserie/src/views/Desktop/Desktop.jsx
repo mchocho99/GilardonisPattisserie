@@ -1,4 +1,4 @@
-import { Slider, Text, Top } from "../../components/index";
+import { Slider, Top } from "../../components/index";
 
 import texts from "../../text/texts.json";
 
@@ -17,7 +17,7 @@ const Desktop = () => {
       <div id="body">
         <div id="slider">
           <Slider />
-          <Text />
+          <div id="text">{texts.desktop.slider.text}</div>
         </div>
         <img id="mobile-image" src={Merenguitos} alt="" />
       </div>
